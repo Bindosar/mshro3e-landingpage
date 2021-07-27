@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+  }
+.navLogo{
+    position: absolute;
+    height: 260px;
+    width: 240px;
+    margin-top: -80px;
+}
+.navBtn{
+    cursor: pointer;
+   position: absolute;
+   padding-left: 20px;
+   padding-right: 20px;
+   left: 0%;
+   right: 0%;
+   top: 0%;
+   bottom: 0%;
+   background: #f2f2f2;
+   border: 1px solid #223567;
+   /* box-sizing: border-box; */
+   border-radius: 13px;
+height: 40px;
+left: 80.63%;
+right: 11.63%;
+top: 25px;
+font-family: 'Poppins', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 19px;
+color: #223567;
+transition: 0.3s;
+ }
+ .navBtn :hover{
+    background: #223567;
+    color: #FFFFFF;
+    border: none;
+
+ }
+ .getInTouch{
+    cursor: pointer;
+    margin-left:900px ;
+    color: black; 
+}
+
+.section-1{
+  background-image: url(./img/Group\ 31.png);
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+.iphone{
+  width:"360px" ;
+  margin-top: 50px;
+}
+
+.best-text{
+  /* Best Ecomerce Platfo */
+
+position: absolute;
+width: 500px;
+height: 152px;
+left: 50px;
+top: 227px;
+
+font-family: Bree Serif;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 76px;
+/* or 119% */
+
+color: #000000;
+}
+.description{
+  /* E-commerce (electron */
+
+position: absolute;
+width: 482px;
+height: 156px;
+left: 50px;
+top: 398px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+color: #000000;
+
+}
+
+.android-install{
+  position: absolute;
+  width: 150px;
+  left: 50px;
+top: 598px;
+}
+
+.iphone-install{
+  position: absolute;
+  width: 150px;
+  left: 250px;
+top: 598px;
+}
+
+.how-text{
+  /* How MSHRo3E Works */
+position: absolute;
+width: 464px;
+height: 58px;
+left: 428px;
+top: 952px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: clip;
+
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 45px;
+line-height: 58px;
+/* identical to box height */
+text-align: center;
+color: #000000;
+}
+
+.description-2{
+/* E-commerce (electron */
+
+position: absolute;
+width: 704px;
+height: 56px;
+left: 310px;
+top: 1037px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.four-imgs{
+  margin-top: 260px;
+  margin-left: 150px;
+}
+
+.fastest-text{
+  /* Fastest Delivery */
+position: absolute;
+width: 270px;
+height: 32px;
+top: 1260px;
+margin-left: 70px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 178% */
+text-align: center;
+
+color: #000000;
+}
+
+.secure-text{
+  /* Secure Shopping */
+
+position: absolute;
+width: 270px;
+height: 32px;
+top: 1260px;
+margin-left: 360px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 178% */
+text-align: center;
+
+color: #000000;
+}
+
+.easy-text{
+/* Easy Return */
+
+position: absolute;
+width: 270px;
+height: 32px;
+top: 1260px;
+margin-left:660px ;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 178% */
+text-align: center;
+
+color: #000000;
+}
+
+.offer-text{
+
+/* Best Offers */
+
+position: absolute;
+width: 270px;
+height: 32px;
+top: 1260px;
+margin-left: 960px;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 178% */
+text-align: center;
+
+color: #000000;
+}
+
+.desc-1{
+  /* E-commerce (electron */
+
+position: absolute;
+width: 225px;
+height: 54px;
+margin-left: 100px;
+top: 1297px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.desc-2{
+/* E-commerce (electron */
+
+position: absolute;
+width: 225px;
+height: 54px;
+margin-left: 390px;
+top: 1297px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.desc-3{
+/* E-commerce (electron */
+
+position: absolute;
+width: 225px;
+height: 54px;
+margin-left:690px ;
+top: 1297px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+.desc-4{
+/* E-commerce (electron */
+
+position: absolute;
+width: 225px;
+height: 54px;
+margin-left: 990px;
+top: 1297px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 18px;
+/* or 138% */
+text-align: center;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.section-3{
+  background-image: url(./img/Group\ 35.png);
+  height: 700px;
+  background-repeat: no-repeat;
+  margin-top: 150px;
+}
+
+.section3-text{
+  /* Lorem Ipsum is simpl */
+position: absolute;
+left: 0%;
+right: 0%;
+top: 260.34%;
+bottom: 0%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+color: #212121;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+}
+
+.section4-img{
+margin-left: 420px;
+}
+
+.section4-text{
+/* Create your own uniq */
+
+position: absolute;
+width: 568.8px;
+height: 72px;
+left: 380px;
+top: 2213.6px;
+
+font-family: Open Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16.8px;
+line-height: 24px;
+/* or 143% */
+text-align: center;
+
+color: #212121;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.copyright{
+  /* Group 15 */
+
+position: absolute;
+width: 307px;
+height: 16px;
+
+
+
+/* Copyright © 2021 | M */
+
+position: absolute;
+height: 16px;
+left: 40%;
+right: 0%;
+top: 360%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+
+color: #212121;
+
+mix-blend-mode: normal;
+opacity: 0.7;
+
+}
+
+.instaLogo{
+  /* Group 35 */
+
+position: absolute;
+width: 40px;
+height: 40px;
+top: 350%;
+left: 45%;
+}
+
+.googleLogo{
+  position: absolute;
+width: 40px;
+height: 40px;
+top: 350%;
+left: 55%;
+}
+
+.twitterLogo{
+  position: absolute;
+width: 40px;
+height: 40px;
+top: 350%;
+left: 50%;
+}
